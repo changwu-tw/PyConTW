@@ -1,6 +1,6 @@
 # Threshold Cryptography with Python
 
-## Instrall SafeMath via Docker
+## Instrall SageMath via Docker
 
 
 - [https://hub.docker.com/r/sagemath/sagemath](https://hub.docker.com/r/sagemath/sagemath)
