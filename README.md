@@ -17,4 +17,4 @@ $ docker run -p8888:8888 sagemath/sagemath:latest sage-jupyter
 
 ## Local development environment
 
-- [Install_zh-TW.md](Local environment)
+- [Installation](Install_zh-TW.md)
