@@ -9,7 +9,10 @@
 $ git clone https://github.com/changwu-tw/PyConTW
 $ cd PyConTW
 $ docker pull sagemath/sagemath
-$ docker run -p8888:8888 -v "$PWD":/home/sage/pycontw sagemath/sagemath:latest sage-jupyter
+$ docker run -p8888:8888 --name notebook \
+      -v "$PWD":/home/sage/pycontw \
+      sagemath/sagemath:latest sage-jupyter
+$ docker stop notebook
 ```
 
 ## Notebooks
